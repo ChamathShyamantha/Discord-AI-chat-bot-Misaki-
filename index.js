@@ -2,6 +2,9 @@ const WebSocket = require('ws')
 const Discord = require('discord.js')
 const fetch = require('node-fetch')
 require('dotenv').config()
+const express = require('express')
+const app = express();
+const port = 3000
 
 const client = new Discord.Client({
     intents: [Discord.Intents.FLAGS.GUILDS, Discord.Intents.FLAGS.GUILD_MESSAGES]
@@ -93,3 +96,8 @@ client.on('messageCreate', message => {
 })
 
 client.login(process.env.DISCORD_BOT_TOKEN)
+app.get('/', (req, res) => res.send('Odd is better.'))
+
+app.listen(port, () =>
+console.log(`Your app is listening a http://localhost:${port}`)
+);

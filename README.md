@@ -1,47 +1,7 @@
-# ChaiJS
-
-Discord fan-made bot created to interact with chai.ml chatbots
-
-## 🚧 Requirements
-- [Node.js 16.4 or newer](https://nodejs.org)
-- [Discord bot token](https://discordjs.guide/preparations/setting-up-a-bot-application.html#creating-your-bot)
-- [Discord channel id](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-)
-- <details><summary>Chai developer key, developer uid & bot id</summary><br>
-  
-  Go to https://chai.ml/, create a bot if you don't have one then click "Publish"
-  
-  ![](https://ploxxy.is-a-virg.in/5uxJfjtV5.png)
-
-  ⚠ You are not limited to your own chatbots! You can use any that you like
-  
-</details>
-
-## Installation
-
-```bash
-git clone https://github.com/ploxxxy/chai-js
-cd chai-js
-npm install
-```
-
-After setting up the bot, you can run it using `npm start`
-
-## ⚙ Configuration
-
-#### You are not limited to your own chatbots! You can use any that you like
-
-Go to `.env` file and fill out the values, for example:
-```properties
-DISCORD_BOT_TOKEN=OTYf4MTYyNjKuRw4ODM4Ng0.Yma1ug.mAnGoDOg-ZvWYfmgz4NWhzj-IIc
-DISCORD_CHANNEL_ID=968166994123816981
-CHAI_BOT_ID=_bot_799cee61-370f-4b07-aae5-5ada4eb4f844
-CHAI_DEV_KEY=v9Pl0xXyocdthJslmL1K3sQ5nyusXgFM1s4t0YfJg6j5lPwh4tT0d0ztxJuHGCab8-6wNeBn1DFRYEgN0sbu
-CHAI_DEV_UID=i0iPl0XxYtnz1Sakm0guC0OL6g2
-```
-
-## 🤓 Issues
-
-If you have encountered an issue, you can
-- [make a pull request](https://github.com/ploxxxy/chai-js/pulls)
-- [create an issue](https://github.com/ploxxxy/chai-js/issues)
-- dm me in discord: ploxxy#6090
+Get your our chai api keys from [here](https://chai.ml/) <br/>
+All the environment names and example
+```CHAI_BOT_ID=_bot_54281e3f-506c-49e1-9602-010c47a9c2b6
+CHAI_DEV_KEY=Ax3hXuzUPmir4dAzJjiGFzERg-29lH_fg8QHSlWU8rd1lXLAJ9RCvN8k4s49TbvlXyrNF_E3oFpINZv6ut7sew
+CHAI_DEV_UID=e96pVXzx3UOfjwetK6dlwksdL2v1
+DISCORD_BOT_TOKEN=xxxxxxxx
+DISCORD_CHANNEL_ID=xxxxxxxxx
